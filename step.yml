@@ -136,6 +136,7 @@ inputs:
 - ios_output_pattern: |-
     *build/ios/iphoneos/*.app
     *build/ios/archive/*.xcarchive
+    *build/ios/ipa/*.ipa
   opts:
     category: iOS Platform Configs
     title: Output pattern
